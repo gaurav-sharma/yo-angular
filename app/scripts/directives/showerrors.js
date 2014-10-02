@@ -11,7 +11,7 @@ angular.module('yoAngularApp').directive('showErrors', function($timeout) {
 		require : '^form',
 		link : function(scope, el, attrs, formCtrl) {
 			// find the text box element, which has the 'name' attribute
-			var inputEl = el[0].querySelector("[name]");
+			var inputEl = el[0].querySelector('[name]');
 			// convert the native text box element to an angular element
 			var inputNgEl = angular.element(inputEl);
 			// get the name on the text box
