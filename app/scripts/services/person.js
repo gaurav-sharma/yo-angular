@@ -3,21 +3,9 @@
 /**
  * @ngdoc service
  * @name yoAngularApp.Person
- * @description
- * # Person
- * Factory in the yoAngularApp.
+ * @description # Person Factory in the yoAngularApp.
  */
-angular.module('yoAngularApp')
-  .factory('Person', function () {
-    // Service logic
-    // ...
+angular.module('yoAngularApp').factory('Person', function($resource) {
 
-    var meaningOfLife = 42;
-
-    // Public API here
-    return {
-      someMethod: function () {
-        return meaningOfLife;
-      }
-    };
-  });
+	return $resource('http://localhost:8080/people/:id');
+});
