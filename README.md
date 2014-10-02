@@ -9,3 +9,6 @@ Simple CRUD AngularJS app. Multiple AngularJS features are demonstrated:
 angular generator for Yeoman(https://github.com/yeoman/generator-angular) 
 
 The backend is a Spring application hosted on Heroku. It's on the free tier and usually takes a few seconds to wake up. The repo for this is at https://github.com/gaurav-sharma/simple-spring-rest
+
+
+You can see the app in action at http://www.gauravsharma.io/yo-angular/dist/
