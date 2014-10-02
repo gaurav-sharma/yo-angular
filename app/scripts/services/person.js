@@ -7,5 +7,5 @@
  */
 angular.module('yoAngularApp').factory('Person', function($resource) {
 
-	return $resource('http://localhost:8080/people/:id');
+	return $resource('http://serene-refuge-6530.herokuapp.com/:id');
 });
